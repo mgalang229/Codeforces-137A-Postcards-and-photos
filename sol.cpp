@@ -9,7 +9,7 @@ int main() {
   cin >> s;
   int n = (int) s.size();
   int ans = 0;
-  // create segments with the same character (but only up to 5)
+  // create segments with the same characters (but only up to 5)
   for (int i = 0; i < n; i++) {
   	int j = i;
   	int cnt = 0;
